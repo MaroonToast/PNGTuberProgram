@@ -27,17 +27,17 @@ customShader:send('backgroundHeight',bHeight)
 
 local shaderTimer=0
 
-backgroundImage2 = love.graphics.newImage('background2.png')
+local backgroundImage2 = love.graphics.newImage('background2.png')
 backgroundImage2:setWrap('repeat','repeat')
 backgroundImage3 = love.graphics.newImage('background3.png')
 backgroundImage3:setWrap('repeat','repeat')
-backgroundImage4 = love.graphics.newImage('background4.png')
+local backgroundImage4 = love.graphics.newImage('background4.png')
 backgroundImage4:setWrap('repeat','repeat')
-backgroundImage5 = love.graphics.newImage('background5.png')
+local backgroundImage5 = love.graphics.newImage('background5.png')
 backgroundImage5:setWrap('repeat','repeat')
-backgroundImage6 = love.graphics.newImage('background6.png')
+local backgroundImage6 = love.graphics.newImage('background6.png')
 backgroundImage6:setWrap('repeat','repeat')
-backgroundImage7 = love.graphics.newImage('background7.png')
+local backgroundImage7 = love.graphics.newImage('background7.png')
 backgroundImage7:setWrap('repeat','repeat')
 
 
