@@ -257,6 +257,10 @@ function love.load(arg)
   love.window.setTitle('Maroon\'s Custom PNGTuber Software')
   local items = love.filesystem.getDirectoryItems('tubers/')
   
+  if arg[1] == '-console' then
+    love._openConsole()
+  end
+  
   for i,v in pairs(items) do
     local workingDir = 'tubers/'..v..'/'
     local valid=true
