@@ -1,0 +1,52 @@
+{
+  "Name":"Example",
+  "Description":"--MADE BY MAROON--\nExample lizard guy! Don\'t worry about credit, and edit as you need!",
+  "Talk Delay":90,
+  "Silence Allowance":5,
+  "Bounce Intensity":20,
+  "Blink Length":10,
+  "Animation Speed":1,
+  "Background Color":{"R":0,"G":1,"B":0},
+  "Position":{"X":100,"Y":0},
+  "Blink Range":{"Min":150,"Max":250},
+  
+  "Sprites":{
+    "Body":{
+      "Sprite Names":["base.png"],
+      "Offset":{"X":0,"Y":0}
+    },
+    
+    "Eyes":{
+      "Open":{
+        "Sprite Names":["eyesOpen.png"],
+        "Offset":{"X":0,"Y":0}
+      },
+      "Closed":{
+        "Sprite Names":["eyesClosed.png"],
+        "Offset":{"X":0,"Y":0}
+      }
+    },
+    
+    "Mouth":{
+      "Open":{
+        "Sprite Names":["mouthOpen.png"],
+        "Offset":{"X":0,"Y":0}
+      },
+      "Closed":{
+        "Sprite Names":["mouthClosed.png"],
+        "Offset":{"X":0,"Y":0}
+      }
+    }
+  },
+  
+  "Props":[
+    {
+      "Sprite Names":["hat.png"],
+      "Offset":{"X":0,"Y":0},
+      "Paralax":1.5,
+      "Enabled by Default":false,
+      "Behind":false,
+      "Toggleable":true
+    }
+  ]
+}
